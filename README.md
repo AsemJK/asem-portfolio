@@ -14,7 +14,7 @@ A simple portfolio starter theme built with Vue.js v3, Composition API and Tailw
 - [Vue.js v3](https://vuejs.org) with [Vue Router](https://router.vuejs.org)
 - [Tailwind CSS v3](https://tailwindcss.com)
 - Theme Switcher with Dark Mode
-- Composition API
+- Options API
 - Vue transitions
 - Reusable Components
 - Auto Counter Component
