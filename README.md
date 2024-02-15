@@ -6,7 +6,7 @@ A simple portfolio starter theme built with Vue.js v3, Composition API and Tailw
 
 ## Demo URL
 
-[https://vuejs-tailwindcss-portfolio.netlify.com](https://vuejs-tailwindcss-portfolio.netlify.com)
+[https://asem-portfolio.onrender.com](https://asem-portfolio.onrender.com)
 
 ## Features
 
@@ -41,7 +41,7 @@ brew install node
 2. Clone the repo:
 
 ```
-git clone https://github.com/realstoman/vuejs-tailwindcss-portfolio.git
+git clone https://github.com/AsemJK/AsemJK.github.io/tree/vue-version
 ```
 
 3. Open the project folder:
@@ -74,4 +74,4 @@ npm run serve
 
 ### License
 
-[MIT](https://github.com/realstoman/vuejs-tailwindcss-portfolio/blob/main/LICENSE)
+[MIT](https://github.com/AsemJK/AsemJK.github.io/tree/vue-version/LICENSE)
