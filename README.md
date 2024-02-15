@@ -8,12 +8,6 @@ A simple portfolio starter theme built with Vue.js v3, Composition API and Tailw
 
 [https://vuejs-tailwindcss-portfolio.netlify.com](https://vuejs-tailwindcss-portfolio.netlify.com)
 
-## Other versions of this project
-
-- Nuxt.js Version: [https://github.com/realstoman/nuxtjs-tailwindcss-portfolio](https://github.com/realstoman/nuxtjs-tailwindcss-portfolio)
-- React Version: [https://github.com/realstoman/react-tailwindcss-portfolio](https://github.com/realstoman/react-tailwindcss-portfolio)
-- Next.js Version: [https://github.com/realstoman/nextjs-tailwindcss-portfolio](https://github.com/realstoman/nextjs-tailwindcss-portfolio)
-
 ## Features
 
 - Simple and responsive design
@@ -31,8 +25,6 @@ A simple portfolio starter theme built with Vue.js v3, Composition API and Tailw
 - Dynamic forms
 - Scroll to top button
 - Download file button
-
-### To Contribute to this project, read the [Contribution Guidlines](https://github.com/realstoman/vuejs-tailwindcss-portfolio/blob/main/CONTRIBUTING.md)
 
 ## Setup
 
