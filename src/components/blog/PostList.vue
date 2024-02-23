@@ -32,7 +32,18 @@
             {{ post.description }}
           </div>
           <div class="text-sm text-neutral-600">
-            {{ post.text }}
+            <pre
+              style="
+                white-space: pre-wrap;
+                font-family: inhirit;
+                font-size: larger;
+              "
+            >
+  {{ post.text }} </pre
+            >
+            <div class="image mt-6">
+              <img :src="post.image" alt="post image" />
+            </div>
           </div>
         </div>
 
