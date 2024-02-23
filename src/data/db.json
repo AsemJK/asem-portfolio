@@ -33,6 +33,24 @@
             "image": "https://vuejs.org/images/logo.png",
             "author": "Asem Alsaiyadi",
             "user": "1"
+        },
+        {
+            "id": "3",
+            "categories": [
+                1,
+                2
+            ],
+            "name": "ASP.NET CORE",
+            "description": "Asp.Net Core",
+            "url": "https://dotnet.microsoft.com/en-us/learn/aspnet",
+            "tags": [
+                "C#",
+                "Webapp"
+            ],
+            "text": "ASP.NET Core is a cross-platform, high-performance, open-source framework for building modern, cloud-enabled, Internet-connected apps.",
+            "image": "https://dotnet.microsoft.com/static/images/illustrations/swimlane-blazor-ui-build.svg?v=2_6GDQc4LI7_aGT3Y17cmM90BeCmC2uMo9wiJU3Biiw",
+            "author": "Asem Alsaiyadi",
+            "user": "1"
         }
     ],
     "categories": [
