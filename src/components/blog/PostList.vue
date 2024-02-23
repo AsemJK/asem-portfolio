@@ -29,7 +29,7 @@
 
         <div class="mt-4 mb-6">
           <div class="mb-3 text-xl font-bold">
-            Nulla sed leo tempus, feugiat velit vel, rhoncus neque?
+            {{ post.description }}
           </div>
           <div class="text-sm text-neutral-600">
             {{ post.text }}
