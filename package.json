@@ -1,5 +1,5 @@
 {
-  "name": "vuejs-tailwindcss-portfolio",
+  "name": "asem-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -23,6 +23,7 @@
     "vue3-autocounter": "^1.0.6"
   },
   "devDependencies": {
+    "@iconify/tailwind": "^0.1.4",
     "@vue/cli-service": "~5.0.8",
     "@vue/compiler-sfc": "^3.2.45",
     "autoprefixer": "^10.4.13",
@@ -45,7 +46,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": [
     "> 1%",

@@ -9,7 +9,7 @@ export default {
 				I am a .NET developer, specializing in using the .NET framework
 				to build applications. I am proficient in programming languages
 				such as C# and skilled in developing web, desktop,
-				and mobile applications using technologies like ASP.NET, MVC, and Xamarin.
+				and mobile applications using technologies like ASP.NET, MVC, .NET CORE, and Xamarin.
 
 				I am also a JavaScript developer, specializing in using JavaScript
 				to build web applications. I am proficient in front-end technologies
@@ -31,7 +31,7 @@ export default {
         },
         {
           id: 2,
-          bio: `I am a seasoned DevOps engineer with extensive experience 
+          bio: `I am a seasoned DevOps engineer with extensive experience
 			in managing software workflows using GitHub, AWS, and Azure. I have a deep understanding of Continuous Integration/Continuous Deployment (CI/CD) pipelines and have successfully implemented them using these platforms.
 
 			With GitHub, I have managed code repositories, reviewed code, and merged
