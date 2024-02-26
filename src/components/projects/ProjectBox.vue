@@ -1,16 +1,15 @@
 <script setup>
-import { defineProps } from 'vue'
+import { defineProps } from "vue";
 defineProps({
   selectedProject: Object,
-  project: Object
-})
+  project: Object,
+});
 </script>
 
 <template>
   <router-link
     :to="{
-      path: '/projects/single-project',
-      params: { selectedProject: project },
+      path: `/projects/${project.id}`,
     }"
     class="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark"
   >

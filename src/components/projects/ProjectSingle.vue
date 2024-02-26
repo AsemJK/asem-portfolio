@@ -6,13 +6,15 @@ export default {
 
 <template>
   <router-link
-    to="/projects/single-project"
+    :to="{
+      path: `/projects/${project.id}`,
+    }"
     class="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark"
     aria-label="Single Project"
   >
     <div>
       <img
-        :src="project.img"
+        :src="require('@/assets/images/' + project.image)"
         :alt="project.title"
         class="rounded-t-xl border-none w-full h-64 object-cover dark:bg-second"
       />

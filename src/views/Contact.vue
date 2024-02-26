@@ -23,7 +23,7 @@ export default {
         },
         {
           id: 3,
-          name: "0505668595",
+          name: "+966",
           icon: "phone",
         },
       ],
