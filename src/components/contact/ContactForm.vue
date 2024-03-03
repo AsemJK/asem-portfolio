@@ -3,12 +3,8 @@ import Button from "../reusable/Button.vue";
 import FormInput from "../reusable/FormInput.vue";
 import FormTextarea from "../reusable/FormTextarea.vue";
 import { ref } from "vue";
-// export default {
-//   components: { Button, FormInput, FormTextarea },
-//   methods: {
-//     ,
-//   },
-// };
+import axios from "axios";
+
 const name = ref("");
 const email = ref("");
 const subject = ref("");
@@ -27,9 +23,7 @@ const updateMessageValue = (val) => {
   message.value = val;
 };
 
-const sendEmail = () => {
-  console.log(name.value, email.value, subject.value, message.value);
-  console.log(process.env.VUE_APP_TO_EMAIL);
+const sendEmail = async () => {
   const data = {
     name: name.value,
     toName: "Asem-Portfolio",
@@ -37,21 +31,30 @@ const sendEmail = () => {
     title: subject.value,
     message: message.value,
   };
-  fetch(process.env.VUE_APP_API_URL + "/contact", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Auhorization: `Bearer ${process.env.VUE_APP_API_KEY}`,
+  const tokenData = await axios.post(
+    `${process.env.VUE_APP_API_URL}/login`,
+    {
+      email: "admin@admin.com",
+      password: "Admin123!",
     },
-    body: JSON.stringify(data),
-  })
-    .then((response) => response.json())
-    .then((data) => {
-      console.log("Success:", data);
-    })
-    .catch((error) => {
-      console.error("Error:", error);
-    });
+    {
+      headers: {
+        "Content-Type": "application/json",
+      },
+    }
+  );
+
+  const response = await axios.post(
+    `${process.env.VUE_APP_API_URL}/contact`,
+    data,
+    {
+      headers: {
+        "Content-Type": "application/json",
+      },
+      Authorization: `Bearer ${tokenData.data.token}`,
+    }
+  );
+  console.log(response);
 };
 </script>
 
