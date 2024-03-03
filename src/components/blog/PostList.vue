@@ -5,7 +5,7 @@
       v-for="post in getPosts()"
       :key="post.id"
     >
-      <div class="rounded-xl border p-5 shadow-md w-9/12 bg-white">
+      <div class="rounded-xl border p-5 shadow-md w-11/12 bg-white">
         <div class="flex w-full items-center justify-between border-b pb-3">
           <div class="flex items-center space-x-3">
             <div class="h-8 w-8 rounded-full bg-slate-400">

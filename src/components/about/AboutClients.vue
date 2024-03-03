@@ -12,42 +12,42 @@ export default {
         {
           id: 1,
           title: "C#",
-          img: require("@/assets/images/teqs/csharp.png"),
+          img: "/images/teqs/csharp.png",
         },
         {
           id: 2,
           title: "Asp.Net Core",
-          img: require("@/assets/images/teqs/aspcore.png"),
+          img: "/images/teqs/aspcore.png",
         },
         {
           id: 3,
           title: "Vuejs",
-          img: require("@/assets/images/teqs/vue.png"),
+          img: "/images/teqs/vue.png",
         },
         {
           id: 4,
           title: "Angular",
-          img: require("@/assets/images/teqs/angular.png"),
+          img: "/images/teqs/angular.png",
         },
         {
           id: 5,
           title: "Laravel",
-          img: require("@/assets/images/teqs/laravel.png"),
+          img: "/images/teqs/laravel.png",
         },
         {
           id: 6,
           title: "Sql Server",
-          img: require("@/assets/images/teqs/sql_server.png"),
+          img: "/images/teqs/sql_server.png",
         },
         {
           id: 7,
           title: "AWS",
-          img: require("@/assets/images/teqs/aws_clouding.png"),
+          img: "/images/teqs/aws_clouding.png",
         },
         {
           id: 8,
           title: "Xamarin",
-          img: require("@/assets/images/teqs/xamarin.png"),
+          img: "/images/teqs/xamarin.png",
         },
       ],
     };

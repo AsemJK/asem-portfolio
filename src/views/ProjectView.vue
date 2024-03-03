@@ -22,7 +22,6 @@
 </template>
 
 <script>
-import projects from "../data/projects.js";
 import dbsource from "../data/db.json";
 import ProjectHeader from "../components/projects/ProjectHeader.vue";
 import ProjectGallery from "../components/projects/ProjectGallery.vue";
@@ -38,7 +37,7 @@ export default {
   },
   data() {
     return {
-      projects: projects,
+      projects: dbsource.projects,
     };
   },
   props: {
@@ -65,7 +64,7 @@ export default {
       var image = {
         id: 1,
         title: this.project.title,
-        img: this.project.img,
+        image: this.project.image,
       };
       return [image];
     },

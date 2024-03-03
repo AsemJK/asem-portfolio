@@ -14,7 +14,7 @@ export default {
   >
     <div>
       <img
-        :src="require('@/assets/images/' + project.image)"
+        :src="project.image"
         :alt="project.title"
         class="rounded-t-xl border-none w-full h-64 object-cover dark:bg-second"
       />
