@@ -58,6 +58,24 @@ const routes = [
     meta: {
       title: 'Asem - Blog',
     },
+  },
+  {
+    path: '/admin',
+    name: 'Admin',
+    component: () => import(/* webpackChunkName: "admin" */ '../views/ddmin/Index.vue'),
+    meta: {
+      title: 'Asem - Admin',
+      requiresAuth: true,
+
+    },
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: () => import(/* webpackChunkName: "login" */ '../views/Login.vue'),
+    meta: {
+      title: 'Asem - Login',
+    },
   }
 ];
 
