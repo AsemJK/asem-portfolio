@@ -62,7 +62,7 @@ const routes = [
   {
     path: '/admin',
     name: 'Admin',
-    component: () => import(/* webpackChunkName: "admin" */ '../views/ddmin/Index.vue'),
+    component: () => import(/* webpackChunkName: "admin" */ '../views/admin/Index.vue'),
     meta: {
       title: 'Asem - Admin',
       requiresAuth: true,

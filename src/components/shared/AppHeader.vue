@@ -93,13 +93,13 @@ export default {
             ><img
               v-if="theme === 'light'"
               src="/images/logo-dark.png"
-              class="w-14 rounded-xl"
+              class="w-[6rem] rounded-xl"
               alt="Dark Logo"
             />
             <img
               v-else
               src="/images/logo-dark.png"
-              class="w-14 rounded-xl"
+              class="w-[6rem] rounded-xl"
               alt="Light Logo"
             />
           </router-link>
@@ -164,6 +164,15 @@ export default {
           @themeChanged="updateTheme"
           class="ml-8 bg-primary-light dark:bg-ternary-dark px-3 py-2 shadow-sm rounded-xl cursor-pointer"
         />
+      </div>
+      <div>
+        <a href="https://github.com/AsemJK" target="_blank">
+          <img
+            src="/images/github.png"
+            class="w-10 rounded-xl hover:shadow-2xl duration-300"
+            alt="Github Logo"
+          />
+        </a>
       </div>
     </div>
 
