@@ -38,7 +38,7 @@ export default {
       >
         A Full-Stack Developer & Software Engineer
       </p>
-      <div class="flex justify-center sm:block">
+      <!-- <div class="flex justify-center sm:block">
         <a
           download="Resume_Asem.pdf"
           href="/files/Resume_Asem.pdf"
@@ -53,7 +53,7 @@ export default {
             >Download CV</span
           ></a
         >
-      </div>
+      </div> -->
     </div>
 
     <!-- Banner right illustration -->
