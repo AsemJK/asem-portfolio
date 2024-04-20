@@ -105,9 +105,8 @@ export default {
         v-for="projectDetail in projectInfo.projectDetails"
         :key="projectDetail.id"
         class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
-      >
-        {{ projectDetail.details }}
-      </p>
+        v-html="projectDetail.description"
+      ></p>
     </div>
   </div>
 </template>

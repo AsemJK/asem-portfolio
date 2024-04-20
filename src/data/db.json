@@ -132,7 +132,41 @@
                 "SQL Server",
                 "Crystal Reports"
             ],
-            "objectives": "Manage inventory, track sales, generate reports, and streamline business processes."
+            "objectives": "Manage inventory, track sales, generate reports, and streamline business processes.",
+            "details": [
+                {
+                    "id": 1,
+                    "description": "<b>Complexity :</b> ERP systems are often complex and large-scale, requiring integration with various business processes. This can make the system difficult to design and implement."
+                },
+                {
+                    "id": 2,
+                    "description": "<b>Customization :</b> Every business has unique needs, and the ERP system must be flexible enough to meet these needs. This often requires a high degree of customization, which can be challenging to implement."
+                },
+                {
+                    "id": 3,
+                    "description": "<b>Integration :</b> ERP systems must integrate with other systems and applications within the organization. This can be complex and require a high degree of technical expertise."
+                },
+                {
+                    "id": 4,
+                    "description": "<b>Scalability :</b> ERP systems must be able to scale to meet the needs of a growing business. This can be challenging to implement and require significant resources."
+                },
+                {
+                    "id": 5,
+                    "description": "<b>Security :</b> ERP systems often contain sensitive business data, so security is a critical concern. This requires a high degree of expertise to implement and maintain."
+                },
+                {
+                    "id": 6,
+                    "description": "<b>Cost :</b> ERP systems can be expensive to implement and maintain, requiring significant resources and expertise. This can be a barrier for many businesses."
+                },
+                {
+                    "id": 7,
+                    "description": "<b>Training :</b> ERP systems are complex and require a high degree of expertise to use effectively. This can require significant training and support for users."
+                },
+                {
+                    "id": 8,
+                    "description": "<b>Support :</b> ERP systems are critical to the operation of a business, so support is essential. This requires a high degree of expertise and resources to provide effectively."
+                }
+            ]
         },
         {
             "id": 2,
@@ -153,7 +187,69 @@
                 "SQL Server",
                 "Asp.net Core Web Api"
             ],
-            "objectives": "Manage inventory, track sales, generate reports, and streamline business processes using a mobile device."
+            "objectives": "Manage inventory, track sales, generate reports, and streamline business processes using a mobile device.",
+            "details": [
+                {
+                    "id": 1,
+                    "description": "<b>User Experience :</b> Ensuring a smooth and intuitive user experience across different platforms (iOS, Android, Windows) can be challenging. The UI needs to be consistent yet feel native to each platform."
+                },
+                {
+                    "id": 2,
+                    "description": "<b>Performance :</b> Mobile devices have limited resources compared to desktops, so performance optimization is crucial. This includes efficient data retrieval, processing, and rendering."
+                },
+                {
+                    "id": 3,
+                    "description": "<b>Offline Support :</b> Mobile devices are often used in areas with limited or no internet connectivity. The app must be able to function offline and sync data when a connection is available."
+                },
+                {
+                    "id": 4,
+                    "description": "<b>Security :</b> Mobile devices are more vulnerable to security threats than desktops. The app must be secure against data breaches, malware, and other attacks."
+                },
+                {
+                    "id": 5,
+                    "description": "<b>Integration :</b> The app must integrate with other systems and services, such as payment gateways, inventory management, and customer relationship management (CRM) systems."
+                },
+                {
+                    "id": 6,
+                    "description": "<b>Scalability :</b> The app must be able to scale to accommodate a growing user base and increasing data volume. This requires a robust architecture that can handle high traffic and large datasets."
+                },
+                {
+                    "id": 7,
+                    "description": "<b>Updates :</b> Mobile platforms are constantly evolving, with new versions and features being released regularly. The app must be updated to support the latest platform changes and ensure compatibility with new devices."
+                },
+                {
+                    "id": 8,
+                    "description": "<b>Testing :</b> Testing mobile apps is more complex than testing web apps due to the variety of devices, screen sizes, and operating systems. The app must be thoroughly tested to ensure compatibility and performance across different configurations."
+                },
+                {
+                    "id": 9,
+                    "description": "<b>Cost :</b> Developing mobile apps can be expensive, especially if targeting multiple platforms. The app must be cost-effective to develop, maintain, and support over its lifecycle."
+                },
+                {
+                    "id": 10,
+                    "description": "<b>Monetization :</b> Mobile apps can generate revenue through various monetization strategies, such as in-app purchases, subscriptions, and advertising. The app must be designed to maximize revenue while providing value to users."
+                },
+                {
+                    "id": 11,
+                    "description": "<b>Competition :</b> The app market is highly competitive, with millions of apps vying for users' attention. The app must stand out from the competition and offer unique value to attract and retain users."
+                },
+                {
+                    "id": 12,
+                    "description": "<b>Marketing :</b> Promoting the app and acquiring users is essential for success. The app must be marketed effectively to reach the target audience and drive downloads and engagement."
+                },
+                {
+                    "id": 13,
+                    "description": "<b>Feedback :</b> Listening to user feedback and incorporating it into the app is crucial for success. The app must be continuously improved based on user input to enhance the user experience and drive engagement."
+                },
+                {
+                    "id": 14,
+                    "description": "<b>Analytics :</b> Tracking app usage, user behavior, and other metrics is essential for optimizing the app and driving growth. The app must be integrated with analytics tools to monitor performance and make data-driven decisions."
+                },
+                {
+                    "id": 15,
+                    "description": "<b>Regulations :</b> Mobile apps are subject to various regulations and guidelines, such as data privacy laws and app store policies. The app must comply with these regulations to avoid legal issues and ensure a positive user experience."
+                }
+            ]
         },
         {
             "id": 3,
@@ -171,7 +267,13 @@
             "technologies": [
                 "Html"
             ],
-            "objectives": "Manage projects, track progress, assign tasks, and collaborate with team members."
+            "objectives": "Manage projects, track progress, assign tasks, and collaborate with team members.",
+            "details": [
+                {
+                    "id": 1,
+                    "description": ""
+                }
+            ]
         },
         {
             "id": 4,
@@ -190,7 +292,13 @@
                 "Asp.net Core Web Api",
                 "Blazor"
             ],
-            "objectives": "Manage phone accessories warranty of customers in stores."
+            "objectives": "Manage phone accessories warranty of customers in stores.",
+            "details": [
+                {
+                    "id": 1,
+                    "description": ""
+                }
+            ]
         },
         {
             "id": 5,
@@ -210,7 +318,13 @@
                 "C#",
                 "Razor"
             ],
-            "objectives": "Payment , Support and Other features for NopCommerce platform."
+            "objectives": "Payment , Support and Other features for NopCommerce platform.",
+            "details": [
+                {
+                    "id": 1,
+                    "description": ""
+                }
+            ]
         },
         {
             "id": 6,
@@ -234,7 +348,13 @@
                 "HTML",
                 "CSS (SASS)"
             ],
-            "objectives": "Manage customer relationships, track sales, and streamline business processes."
+            "objectives": "Manage customer relationships, track sales, and streamline business processes.",
+            "details": [
+                {
+                    "id": 1,
+                    "description": ""
+                }
+            ]
         },
         {
             "id": 7,
@@ -258,7 +378,13 @@
                 "HTML",
                 "CSS (SASS)"
             ],
-            "objectives": "Manage office projects, track progress, assign tasks, and collaborate with team members."
+            "objectives": "Manage office projects, track progress, assign tasks, and collaborate with team members.",
+            "details": [
+                {
+                    "id": 1,
+                    "description": ""
+                }
+            ]
         }
     ],
     "about": "I am a software engineer with 5 years of experience in web development. I have a strong background in building scalable, high-quality, and high-performance web applications. I am passionate about building products that are user-friendly and accessible. I am also passionate about learning new technologies and sharing my knowledge with others. I am a team player and I enjoy working in a collaborative environment. I am always looking for new opportunities to grow and expand my skill set."
