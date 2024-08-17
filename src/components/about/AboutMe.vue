@@ -6,7 +6,7 @@ export default {
         {
           id: 1,
           bio: `
-                I am a .NET developer, specializing in using the .NET framework
+                I am a Full Stack developer, specializing in using the .NET framework
                 to build applications. I am proficient in programming languages
                 such as C# and skilled in developing web, desktop,
                 and mobile applications using technologies like ASP.NET, MVC, .NET CORE, and Xamarin.
@@ -14,7 +14,7 @@ export default {
                 I am also a JavaScript developer, specializing in using JavaScript
                 to build web applications. I am proficient in front-end technologies
                 like HTML, CSS, and JavaScript frameworks
-                such as React, Angular, or Vue.js.
+                such as Jquery, Angular and Vue.js.
                 I am also skilled in back-end technologies like Node.js and Express.js.
 
               As a full-stack developer, I am proficient in both
@@ -32,7 +32,8 @@ export default {
         {
           id: 2,
           bio: `I am a seasoned DevOps engineer with extensive experience
-                in managing software workflows using GitHub, AWS, and Azure. I have a deep understanding of Continuous Integration/Continuous Deployment (CI/CD) pipelines and have successfully implemented them using these platforms.
+                in managing software workflows using GitHub, AWS, and Azure. I have a deep understanding of Continuous Integration/Continuous
+                Deployment (CI/CD) pipelines and have successfully implemented them using these platforms.
 
                 With GitHub, I have managed code repositories, reviewed code, and merged
                 pull requests to maintain code quality and consistency across the team.
@@ -64,7 +65,15 @@ export default {
     <div class="w-full sm:w-1/4 mb-7 sm:mb-0">
       <img src="/images/profile.jpg" class="rounded-xl w-96" alt="" />
     </div>
-
+    <div class="fixed inset-5 top-[10%] left-1/2 z-30">
+      <a href="https://github.com/AsemJK" target="_blank">
+        <img
+          src="/images/github.png"
+          class="w-10 rounded-xl hover:shadow-2xl duration-300"
+          alt="Github Logo"
+        />
+      </a>
+    </div>
     <!-- About details -->
     <div class="w-full sm:w-3/4 text-left">
       <p

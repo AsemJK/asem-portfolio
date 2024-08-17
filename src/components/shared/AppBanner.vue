@@ -38,24 +38,23 @@ export default {
       >
         A Full-Stack Developer & Software Engineer
       </p>
-      <!-- <div class="flex justify-center sm:block">
-        <a
-          download="Resume_Asem.pdf"
-          href="/files/Resume_Asem.pdf"
-          class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
-          aria-label="Download Resume"
-        >
-          <i
-            data-feather="arrow-down-circle"
-            class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
-          ></i>
-          <span class="text-sm sm:text-lg font-general-medium duration-100"
-            >Download CV</span
-          ></a
-        >
-      </div> -->
+      <div class="w-full p-3 flex flex-row gap-x-8">
+        <a href="https://github.com/AsemJK" target="_blank">
+          <img
+            src="/images/github.png"
+            class="w-10 rounded-xl hover:shadow-2xl duration-300"
+            alt="Github Logo"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/asem-jk/" target="_blank">
+          <img
+            src="/images/linkedin.png"
+            class="w-10 rounded-xl hover:shadow-2xl duration-300"
+            alt="LinkedIn Logo"
+          />
+        </a>
+      </div>
     </div>
-
     <!-- Banner right illustration -->
     <div class="w-full md:w-2/3 text-right float-right">
       <img
