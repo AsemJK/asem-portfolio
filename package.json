@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "vite lint",
+    "serve": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.3",
+    "@vitejs/plugin-vue": "^5.1.2",
     "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/cli-plugin-router": "^5.0.8",
@@ -18,6 +20,7 @@
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-import": "^15.1.0",
     "postcss-preset-env": "^7.8.3",
+    "vite": "^5.4.2",
     "vue": "^3.2.45",
     "vue-backtotop": "^1.6.1",
     "vue-router": "^4.1.6",
@@ -25,6 +28,7 @@
   },
   "devDependencies": {
     "@iconify/tailwind": "^0.1.4",
+    "@types/feather-icons": "^4.29.4",
     "@vue/cli-service": "~5.0.8",
     "@vue/compiler-sfc": "^3.2.45",
     "autoprefixer": "^10.4.13",

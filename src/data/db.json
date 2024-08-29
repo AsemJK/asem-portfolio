@@ -172,7 +172,7 @@
             "id": 2,
             "title": "Promerce Mobile POS",
             "category": "Mobile Application",
-            "image": "/images/mobile-project-1.jpg",
+            "image": "/images/projects/promerce-mob-1.png",
             "date": "2018",
             "clients": [
                 1
@@ -390,15 +390,12 @@
             "id": 8,
             "title": "Blogii",
             "category": "Abp Module Library",
-            "image": "/images/web-project-2.jpg",
+            "image": "/images/projects/blogii-1.png",
             "date": "2024",
             "clients": [
-                3
+                1
             ],
-            "relatedProjects": [
-                2,
-                3
-            ],
+            "relatedProjects": [],
             "technologies": [
                 "Abp Framework",
                 "ASP.NET Core",
@@ -411,7 +408,7 @@
             "details": [
                 {
                     "id": 1,
-                    "description": ""
+                    "description": "Abp.io is a complete infrastructure to create modern web applications by following the software development best practices. It is a complete framework that provides a solid architectural model and a set of tools to build applications that are scalable, maintainable, and secure. Abp.io is built on top of the ASP.NET Core framework and provides a set of features that are common to most web applications, such as authentication, authorization, logging, and exception handling. It also provides a set of tools to help developers build applications faster and more efficiently, such as code generators, templates, and a modular architecture that allows developers to create reusable components."
                 }
             ]
         }

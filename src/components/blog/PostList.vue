@@ -97,7 +97,7 @@
 </template>
 <script setup>
 import { ref } from "vue";
-import db from "@/data/db.json";
+import db from "../../data/db.json";
 const posts = ref(db.posts);
 
 function getPosts() {

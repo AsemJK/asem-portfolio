@@ -1,5 +1,5 @@
 <script>
-import ThemeSwitcher from "../ThemeSwitcher";
+import ThemeSwitcher from "../reusable/ThemeSwitcher.vue";
 import HireMeModal from "../HireMeModal.vue";
 import feather from "feather-icons";
 import AppHeaderLinks from "./AppHeaderLinks.vue";

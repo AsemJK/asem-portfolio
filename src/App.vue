@@ -1,27 +1,3 @@
-<script>
-import feather from "feather-icons";
-import AppHeader from "./components/shared/AppHeader";
-import AppFooter from "./components/shared/AppFooter";
-
-export default {
-  components: {
-    AppHeader,
-    AppFooter,
-  },
-  data: () => {
-    return {
-      appTheme: localStorage.getItem("theme"),
-    };
-  },
-  mounted() {
-    feather.replace();
-  },
-  updated() {
-    feather.replace();
-  },
-};
-</script>
-
 <template>
   <div :class="appTheme" class="pt-0.5">
     <!-- App header -->
@@ -50,6 +26,10 @@ export default {
     <AppFooter />
   </div>
 </template>
+<script setup>
+import AppHeader from "./components/shared/AppHeader.vue";
+import AppFooter from "./components/shared/AppFooter.vue";
+</script>
 
 <style>
 #app {
