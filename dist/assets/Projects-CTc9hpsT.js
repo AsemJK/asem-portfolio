@@ -1,0 +1,1 @@
+import{P as e}from"./ProjectsGrid-BngSS4S8.js";import{_ as t,r,c as s,d as c,o as n}from"./index-4b2H6wLf.js";import"./db-CXiE5Yj3.js";const a={name:"Projects",components:{ProjectsGrid:e}},p={class:"container mx-auto"};function _(i,m,d,f,l,P){const o=r("ProjectsGrid");return n(),s("div",p,[c(o)])}const $=t(a,[["render",_]]);export{$ as default};

@@ -265,13 +265,47 @@
                 3
             ],
             "technologies": [
-                "Html"
+                "Laravel",
+                "Vue.js",
+                "MySQL",
+                "PHP",
+                "JavaScript",
+                "HTML",
+                "CSS"
             ],
             "objectives": "Manage projects, Contracts Management,Leaves,CRM, track progress, assign tasks, and collaborate with team members.",
             "details": [
                 {
                     "id": 1,
-                    "description": ""
+                    "description": "<b>Complexity :</b> ERP systems are often complex and large-scale, requiring integration with various business processes. This can make the system difficult to design and implement.<br/><b>Some Modules:</b> <br/>- Project Management <br/>- Contracts Management <br/>- Leaves <br/>- CRM <br/>- HR <br/>- Accounting <br/>- Inventory <br/>- Sales <br/>- Purchases <br/>- Reports <br/>- Settings <br/>- Users <br/>- Roles <br/>- Permissions <br/>- Notifications <br/>- Audit Log <br/>- System Logs <br/>- System Settings <br/>- System Updates <br/>- System Backup <br/>- System Restore <br/>- System Maintenance <br/>- System Health <br/>- System Notifications <br/>- System Logs <br/>- System Settings <br/>- System Updates <br/>- System Backup <br/>- System Restore <br/>- System Maintenance <br/>- System Health <br/>- System Notifications <br/>- System Logs <br/>- System Settings <br/>- System Updates <br/>- System Backup <br/>- System Restore <br/>- System Maintenance <br/>- System Health <br/>- System Notifications <br/>- System Logs <br/>- System Settings <br/>- System Updates <br/>- System Backup <br/>- System Restore <br/>- System Maintenance <br/>- System Health <br/>- System Notifications <br/>- System Logs <br/>- System Settings <br/>- System Updates <br/>- System Backup <br/>- System Restore <br/>- System Maintenance <br/>- System Health <br/>- System Notifications <br/>- System Logs <br/>- System Settings <br/>- System Updates <br/>- System Backup <br/>- System Restore <br/>- System Maintenance <br/>- System Health <br/>- System Notifications <br/>- System Logs <br/>- System Settings <br/>- System Updates <br/>- System Backup <br/>- System Restore <br/>- System Maintenance <br/>- System Health <br/>- System Notifications <br/>- System Logs <br/>- System Settings <br/>- System Updates <br/>- System Backup <br/>- System Restore <br/>- System Maintenance <br/>- System Health <br/>- System Notifications <br/>- System Logs <br/>- System Settings <br/>- System Updates <br/>- System Backup <br/>- System Restore <br/>"
+                },
+                {
+                    "id": 2,
+                    "description": "<b>Customization :</b> Every business has unique needs, and the ERP system must be flexible enough to meet these needs. This often requires a high degree of customization, which can be challenging to implement."
+                },
+                {
+                    "id": 3,
+                    "description": "<b>Integration :</b> ERP systems must integrate with other systems and applications within the organization. This can be complex and require a high degree of technical expertise."
+                },
+                {
+                    "id": 4,
+                    "description": "<b>Scalability :</b> ERP systems must be able to scale to meet the needs of a growing business. This can be challenging to implement and require significant resources."
+                },
+                {
+                    "id": 5,
+                    "description": "<b>Security :</b> ERP systems often contain sensitive business data, so security is a critical concern. This requires a high degree of expertise to implement and maintain."
+                },
+                {
+                    "id": 6,
+                    "description": "<b>Cost :</b> ERP systems can be expensive to implement and maintain, requiring significant resources and expertise. This can be a barrier for many businesses."
+                },
+                {
+                    "id": 7,
+                    "description": "<b>Training :</b> ERP systems are complex and require a high degree of expertise to use effectively. This can require significant training and support for users."
+                },
+                {
+                    "id": 8,
+                    "description": "<b>Support :</b> ERP systems are critical to the operation of a business, so support is essential. This requires a high degree of expertise and resources to provide effectively."
                 }
             ]
         },
