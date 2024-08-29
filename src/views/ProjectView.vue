@@ -6,7 +6,7 @@
         <ProjectHeader :singleProjectHeader="singleProjectHeader" />
 
         <!-- Project gallery -->
-        <ProjectGallery :projectImages="projectImages" />
+        <ProjectDetails :projectImages="projectImages" />
 
         <!-- Project information -->
         <ProjectInfo :projectInfo="projectInfo" />
@@ -24,14 +24,14 @@
 <script>
 import dbsource from "../data/db.json";
 import ProjectHeader from "../components/projects/ProjectHeader.vue";
-import ProjectGallery from "../components/projects/ProjectGallery.vue";
+import ProjectDetails from "../components/projects/ProjectDetails.vue";
 import ProjectInfo from "../components/projects/ProjectInfo.vue";
 import ProjectRelatedProjects from "../components/projects/ProjectRelatedProjects.vue";
 
 export default {
   components: {
     ProjectHeader,
-    ProjectGallery,
+    ProjectDetails,
     ProjectInfo,
     ProjectRelatedProjects,
   },

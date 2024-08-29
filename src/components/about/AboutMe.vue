@@ -65,15 +65,6 @@ export default {
     <div class="w-full sm:w-1/4 mb-7 sm:mb-0">
       <img src="/images/profile.jpg" class="rounded-xl w-96" alt="" />
     </div>
-    <div class="fixed inset-5 top-[10%] left-1/2 z-30">
-      <a href="https://github.com/AsemJK" target="_blank">
-        <img
-          src="/images/github.png"
-          class="w-10 rounded-xl hover:shadow-2xl duration-300"
-          alt="Github Logo"
-        />
-      </a>
-    </div>
     <!-- About details -->
     <div class="w-full sm:w-3/4 text-left">
       <p

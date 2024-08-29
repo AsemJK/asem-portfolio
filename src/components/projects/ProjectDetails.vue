@@ -13,7 +13,7 @@ export default {
     >
       <img
         :src="projectImage.image"
-        class="rounded-xl cursor-pointer shadow-lg sm:shadow-none w-full sm:w-96 h-100 sm:h-96 object-cover"
+        class="rounded-xl cursor-pointer shadow-lg sm:shadow-none w-full sm:w-96 h-100 sm:h-96 object-scale-down"
         :alt="projectImage.title"
         :title="projectImage.title"
       />

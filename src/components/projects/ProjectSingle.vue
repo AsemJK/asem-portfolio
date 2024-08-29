@@ -16,7 +16,7 @@ export default {
       <img
         :src="project.image"
         :alt="project.title"
-        class="rounded-t-xl border-none w-full h-64 object-cover dark:bg-second"
+        class="rounded-t-xl border-none w-full h-64 object-contain dark:bg-second"
       />
     </div>
     <div class="text-center px-4 py-6">
