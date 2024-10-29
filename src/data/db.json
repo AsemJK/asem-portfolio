@@ -445,6 +445,35 @@
           "description": "Abp.io is a complete infrastructure to create modern web applications by following the software development best practices. It is a complete framework that provides a solid architectural model and a set of tools to build applications that are scalable, maintainable, and secure. Abp.io is built on top of the ASP.NET Core framework and provides a set of features that are common to most web applications, such as authentication, authorization, logging, and exception handling. It also provides a set of tools to help developers build applications faster and more efficiently, such as code generators, templates, and a modular architecture that allows developers to create reusable components."
         }
       ]
+    },
+    {
+      "id": 9,
+      "title": "Mqadi",
+      "category": "Mobile Application",
+      "image": "/images/projects/mqadi-2.png",
+      "date": "2023",
+      "clients": [
+        1
+      ],
+      "relatedProjects": [],
+      "technologies": [
+        "C#",
+        "ASP.NET Core",
+        "EF Core",
+        "Xamarin Forms",
+        "XAML",
+        "API",
+        "MongoDB",
+        "AWS",
+        "Linux/Ubuntu"
+      ],
+      "objectives": "Supermarket shopping list manager. Manage staffs needs and tasks.",
+      "details": [
+        {
+          "id": 1,
+          "description": "Mqadi is a mobile application that helps you manage your supermarket shopping list. It allows you to create, edit, and share shopping lists with your family and friends. You can add items to your list, categorize them, set quantities, and mark them as purchased. You can also set reminders for items that need to be purchased at a specific time. Mqadi helps you stay organized and save time by making it easy to manage your shopping list from your phone. It is available on both iOS and Android devices."
+        }
+      ]
     }
   ],
   "about": "I am a software engineer with 15 years of experience in web development. I have a strong background in building scalable, high-quality, and high-performance web applications. I am passionate about building products that are user-friendly and accessible. I am also passionate about learning new technologies and sharing my knowledge with others. I am a team player and I enjoy working in a collaborative environment. I am always looking for new opportunities to grow and expand my skill set."
