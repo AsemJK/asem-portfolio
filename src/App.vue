@@ -2,26 +2,15 @@
   <div :class="appTheme" class="pt-0.5">
     <!-- App header -->
     <AppHeader />
-
-    <!-- Render active component contents with vue transition -->
-    <!-- <transition name="fade" mode="out-in">
-			<router-view :theme="appTheme" />
-		</transition> -->
     <router-view v-slot="{ Component }">
       <transition>
         <component :is="Component" />
       </transition>
     </router-view>
     <!-- Scroll to top -->
-    <back-to-top
-      visibleoffset="500"
-      right="30px"
-      bottom="20px"
-      class="shadow-lg"
-    >
+    <back-to-top visibleoffset="500" right="30px" bottom="20px" class="shadow-lg">
       <i data-feather="chevron-up"></i>
     </back-to-top>
-
     <!-- App footer -->
     <AppFooter />
   </div>
@@ -40,11 +29,7 @@ import AppFooter from "./components/shared/AppFooter.vue";
 }
 
 .vue-back-to-top {
-  @apply p-2 bg-indigo-500 hover:bg-indigo-600 text-white transition
-        duration-500
-        ease-in-out
-        transform
-        hover:-translate-y-1 hover:scale-110;
+  @apply p-2 bg-indigo-500 hover:bg-indigo-600 text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110;
   border-radius: 50%;
   font-size: 22px;
   line-height: 22px;

@@ -4,10 +4,13 @@ import './assets/css/app.css';
 import BackToTop from 'vue-backtotop';
 import App from './App.vue';
 import feather from 'feather-icons';
+import Layout from './components/layouts/Layout.vue'
 
 feather.replace();
+const app = createApp(App);
+app.use('layout', Layout);
 
-createApp(App)
+app
   .use(router)
   .use(BackToTop)
   .mount('#app');

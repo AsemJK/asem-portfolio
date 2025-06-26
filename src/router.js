@@ -4,7 +4,7 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: () => import(/* webpackChunkName: "home" */ '../views/Home.vue'),
+    component: () => import(/* webpackChunkName: "home" */ './pages/Home.vue'),
     meta: {
       title: 'Asem - Home',
     },
@@ -12,7 +12,7 @@ const routes = [
   {
     path: '/about',
     name: 'About',
-    component: () => import('../views/About.vue'),
+    component: () => import('./pages/About.vue'),
     meta: {
       title: 'Asem - About',
     },
@@ -21,7 +21,7 @@ const routes = [
     path: '/projects',
     name: 'Projects',
     component: () =>
-      import(/* webpackChunkName: "projects" */ '../views/Projects.vue'),
+      import(/* webpackChunkName: "projects" */ './pages/Projects.vue'),
     meta: {
       title: 'Asem - Projects',
     },
@@ -31,7 +31,7 @@ const routes = [
     name: 'Project Details',
     component: () =>
       import(
-				/* webpackChunkName: "projects" */ '../views/ProjectView.vue'
+        /* webpackChunkName: "projects" */ './pages/ProjectView.vue'
       ),
     meta: {
       title: 'Asem - Project Details',
@@ -45,7 +45,7 @@ const routes = [
     // this generates a separate chunk (projects.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "projects" */ '../views/Contact.vue'),
+      import(/* webpackChunkName: "projects" */ './pages/Contact.vue'),
     meta: {
       title: 'Asem - Contact',
     },
@@ -54,7 +54,7 @@ const routes = [
     path: '/blog',
     name: 'Blog',
 
-    component: () => import(/* webpackChunkName: "blog" */ '../views/Blog.vue'),
+    component: () => import(/* webpackChunkName: "blog" */ './pages/Blog.vue'),
     meta: {
       title: 'Asem - Blog',
     },
@@ -62,7 +62,7 @@ const routes = [
   {
     path: '/admin',
     name: 'Admin',
-    component: () => import(/* webpackChunkName: "admin" */ '../views/admin/Index.vue'),
+    component: () => import(/* webpackChunkName: "admin" */ './pages/admin/Index.vue'),
     meta: {
       title: 'Asem - Admin',
       requiresAuth: true,
@@ -72,7 +72,7 @@ const routes = [
   {
     path: '/login',
     name: 'Login',
-    component: () => import(/* webpackChunkName: "login" */ '../views/Login.vue'),
+    component: () => import(/* webpackChunkName: "login" */ './pages/Login.vue'),
     meta: {
       title: 'Asem - Login',
     },

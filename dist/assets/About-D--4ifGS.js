@@ -1,4 +1,4 @@
-import{_ as h,o as r,c as u,a as n,F as f,e as A,t as m,g as y,h as b,r as p,d as c,f as g}from"./index-4b2H6wLf.js";const k="/images/profile.jpg",x={setup(){return{bios:[{id:1,bio:`
+import{_ as h,o as r,c as u,a as n,F as f,e as A,t as m,g as y,h as b,r as p,d as c,f as g}from"./index-C2ZPc_o3.js";const k="/images/profile.jpg",x={setup(){return{bios:[{id:1,bio:`
                 I am a Full Stack developer, specializing in using the .NET framework
                 to build applications. I am proficient in programming languages
                 such as C# and skilled in developing web, desktop,
